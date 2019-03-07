@@ -1,8 +1,0 @@
----
-- name: Test
-  hosts: test-hosts
-  gather_facts: False
-  remote_user: deploy # Remote user
-  become: yes
-  roles:
-    - setup
